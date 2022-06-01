@@ -3,7 +3,7 @@ from rlp.sedes import (
     big_endian_int,
 )
 
-from eth_rlp import (
+from platon_rlp import (
     HashableRLP,
 )
 

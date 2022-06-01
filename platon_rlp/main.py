@@ -1,7 +1,7 @@
-from eth_utils import (
+from platon_utils import (
     keccak,
 )
-from eth_utils.toolz import (
+from platon_utils.toolz import (
     pipe,
 )
 from hexbytes import (
@@ -52,7 +52,7 @@ class HashableRLP(rlp.Serializable):
 
         ::
 
-            return eth_utils.toolz.pipe(
+            return platon_utils.toolz.pipe(
                 my_dict,
                 normalize,
                 validate,

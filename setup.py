@@ -7,7 +7,7 @@ from setuptools import (
 
 extras_require = {
     'test': [
-        "eth-hash[pycryptodome]",
+        "platon-hash[pycryptodome]",
         "pytest==5.4.1",
         "pytest-xdist",
         "tox==3.14.6",
@@ -45,27 +45,27 @@ with open('./README.md') as readme:
 
 
 setup(
-    name='eth-rlp',
+    name='platon-rlp',
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
-    version='0.2.1',
-    description="""eth-rlp: RLP definitions for common Ethereum objects in Python""",
+    version='1.2.0',
+    description="""platon-rlp: RLP definitions for common Platon objects in Python""",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='The Ethereum Foundation',
-    author_email='snakecharmers@ethereum.org',
-    url='https://github.com/ethereum/eth-rlp',
+    author='Shinnng',
+    author_email='shinnng@outlook.com',
+    url='https://github.com/platonnetwork/platon-rlp',
     include_package_data=True,
     install_requires=[
-        "eth-utils>=1.0.1,<2",
+        "platon-utils>=1.2.0",
         "hexbytes>=0.1.0,<1",
         "rlp>=0.6.0,<3",
     ],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
-    py_modules=['eth_rlp'],
+    py_modules=['platon_rlp'],
     license="MIT",
     zip_safe=False,
-    keywords='ethereum',
+    keywords='platon',
     packages=find_packages(exclude=["tests", "tests.*"]),
     classifiers=[
         'Development Status :: 5 - Production/Stable',

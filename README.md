@@ -1,26 +1,26 @@
-# eth-rlp
+# platon-rlp
 
-[![Join the chat at https://gitter.im/ethereum/eth-rlp](https://badges.gitter.im/ethereum/eth-rlp.svg)](https://gitter.im/ethereum/eth-rlp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://circleci.com/gh/ethereum/eth-rlp.svg?style=shield)](https://circleci.com/gh/ethereum/eth-rlp)
-[![PyPI version](https://badge.fury.io/py/eth-rlp.svg)](https://badge.fury.io/py/eth-rlp)
-[![Python versions](https://img.shields.io/pypi/pyversions/eth-rlp.svg)](https://pypi.python.org/pypi/eth-rlp)
-[![Docs build](https://readthedocs.org/projects/eth-rlp/badge/?version=latest)](http://eth-rlp.readthedocs.io/en/latest/?badge=latest)
+[![Join the chat at https://gitter.im/platonnetwork/platon-rlp](https://badges.gitter.im/platonnetwork/platon-rlp.svg)](https://gitter.im/platonnetwork/platon-rlp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://circleci.com/gh/platonnetwork/platon-rlp.svg?style=shield)](https://circleci.com/gh/platonnetwork/platon-rlp)
+[![PyPI version](https://badge.fury.io/py/platon-rlp.svg)](https://badge.fury.io/py/platon-rlp)
+[![Python versions](https://img.shields.io/pypi/pyversions/platon-rlp.svg)](https://pypi.python.org/pypi/platon-rlp)
+[![Docs build](https://readthedocs.org/projects/platon-rlp/badge/?version=latest)](http://platon-rlp.readthedocs.io/en/latest/?badge=latest)
    
 
-RLP definitions for common Ethereum objects in Python
+RLP definitions for common Platon objects in Python
 
-Read more in the [documentation on ReadTheDocs](http://eth-rlp.readthedocs.io/). [View the change log](http://eth-rlp.readthedocs.io/en/latest/release_notes.html).
+Read more in the [documentation on ReadTheDocs](http://platon-rlp.readthedocs.io/). [View the change log](http://platon-rlp.readthedocs.io/en/latest/release_notes.html).
 
 ## Quickstart
 
 ```sh
-pip install eth-rlp
+pip install platon-rlp
 ```
 
 ## Developer Setup
 
-If you would like to hack on eth-rlp, please check out the [Snake Charmers
-Tactical Manual](https://github.com/ethereum/snake-charmers-tactical-manual)
+If you would like to hack on platon-rlp, please check out the [Snake Charmers
+Tactical Manual](https://github.com/platonnetwork/snake-charmers-tactical-manual)
 for information on how we do:
 
 - Testing
@@ -33,8 +33,8 @@ for information on how we do:
 You can set up your dev environment with:
 
 ```sh
-git clone git@github.com:ethereum/eth-rlp.git
-cd eth-rlp
+git clone git@github.com:platon/platon-rlp.git
+cd platon-rlp
 virtualenv -p python3 venv
 . venv/bin/activate
 pip install -e .[dev]
@@ -48,7 +48,7 @@ Show flake8 errors on file change:
 
 ```sh
 # Test flake8
-when-changed -v -s -r -1 eth_rlp/ tests/ -c "clear; flake8 eth_rlp tests && echo 'flake8 success' || echo 'error'"
+when-changed -v -s -r -1 platon_rlp/ tests/ -c "clear; flake8 platon_rlp tests && echo 'flake8 success' || echo 'error'"
 ```
 
 Run multi-process tests in one command, but without color:
@@ -64,7 +64,7 @@ Run in one thread, with color and desktop notifications:
 
 ```sh
 cd venv
-ptw --onfail "notify-send -t 5000 'Test failure ⚠⚠⚠⚠⚠' 'python 3 test on eth-rlp failed'" ../tests ../eth_rlp
+ptw --onfail "notify-send -t 5000 'Test failure' 'python 3 test on platon-rlp failed'" ../tests ../platon_rlp
 ```
 
 ### Release setup

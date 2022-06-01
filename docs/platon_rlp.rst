@@ -1,9 +1,9 @@
-eth\_rlp package
+platon\_rlp package
 ================
 
 HashableRLP
 ---------------------
 
-.. automodule:: eth_rlp.main
+.. automodule:: platon_rlp.main
     :members:
     :undoc-members:

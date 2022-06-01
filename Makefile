@@ -27,7 +27,7 @@ lint:
 	tox -elint
 
 lint-roll:
-	isort --recursive eth_rlp tests
+	isort --recursive platon_rlp tests
 	$(MAKE) lint
 
 test:

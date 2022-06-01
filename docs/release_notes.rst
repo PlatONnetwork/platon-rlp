@@ -3,25 +3,25 @@ Release Notes
 
 .. towncrier release notes start
 
-eth-rlp v0.2.0 (2020-09-01)
+platon-rlp v0.2.0 (2020-09-01)
 ---------------------------
 
 Features
 ~~~~~~~~
 
-- Add support for pyrlp v2.0.0-alpha.1 (as long as you don't use pypy) (`#8 <https://github.com/ethereum/eth-rlp/issues/8>`__)
+- Add support for pyrlp v2.0.0-alpha.1 (as long as you don't use pypy) (`#8 <https://github.com/platonnetwork/platon-rlp/issues/8>`__)
 
 
 Deprecations and Removals
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Dropped py3.5 support (`#7 <https://github.com/ethereum/eth-rlp/issues/7>`__)
+- Dropped py3.5 support (`#7 <https://github.com/platonnetwork/platon-rlp/issues/7>`__)
 
 
 Miscellaneous changes
 ~~~~~~~~~~~~~~~~~~~~~
 
-- Merge updates from the project template (`#7 <https://github.com/ethereum/eth-rlp/issues/7>`__)
+- Merge updates from the project template (`#7 <https://github.com/platonnetwork/platon-rlp/issues/7>`__)
 
 
 v0.1.2
@@ -29,7 +29,7 @@ v0.1.2
 
 Released April 25, 2018
 
-- Add :meth:`~eth_rlp.main.HashableRLP.as_dict` as a shim for joint v0/v1 compatibility
+- Add :meth:`~platon_rlp.main.HashableRLP.as_dict` as a shim for joint v0/v1 compatibility
 
 v0.1.1
 --------------
@@ -44,7 +44,7 @@ v0.1.0
 Released Mar 1, 2018
 
 - Marked stable
-- Upgraded eth-utils and hexbytes to stable versions
+- Upgraded platon-utils and hexbytes to stable versions
 - Add pypy3 support
 
 v0.1.0-alpha.2

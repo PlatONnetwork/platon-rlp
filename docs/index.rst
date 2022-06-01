@@ -1,19 +1,19 @@
-eth-rlp
+platon-rlp
 ==============================
 
-RLP definitions for common Ethereum objects in Python
+RLP definitions for common Platon objects in Python
 
 Install with
 
 .. code-block:: shell
 
-  pip install eth_rlp
+  pip install platon_rlp
 
 Import with
 
 ::
 
-  from eth_rlp import HashableRLP
+  from platon_rlp import HashableRLP
 
 Contents
 --------
@@ -21,7 +21,7 @@ Contents
 .. toctree::
     :maxdepth: 3
 
-    eth_rlp
+    platon_rlp
     release_notes
 
 
